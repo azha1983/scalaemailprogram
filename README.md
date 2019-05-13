@@ -29,10 +29,10 @@ Simple Program using Scala with html
               var  high1 = ""
               var  med1 = ""
               var  low1 = ""
+              val total = 10
               
               
-              
-val htmlheadtabl1 = "<table border=1><tbody><tr align='center' bgcolor='#FDDFEA'><td colspan='3'><h5>Total TT : "+ novatt.count +"</h5></td></tr><tr align='center' bgcolor='#FEF6F9'><td><h5>High Cluster Anomaly</h5></td><td><h5>Medium Cluster Anomaly</h5></td><td><h5>Low Cluster Anomaly</h5></td></tr>"
+val htmlheadtabl1 = "<table border=1><tbody><tr align='center' bgcolor='#FDDFEA'><td colspan='3'><h5>Total TT : "+ total +"</h5></td></tr><tr align='center' bgcolor='#FEF6F9'><td><h5>High Cluster Anomaly</h5></td><td><h5>Medium Cluster Anomaly</h5></td><td><h5>Low Cluster Anomaly</h5></td></tr>"
               
               
               valH.printSchema()
